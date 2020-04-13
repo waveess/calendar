@@ -20,7 +20,7 @@ const timeInADay = () => {
     var formattedTime = [];
     time = formattedTime;
     for (i = 0; i < hoursPerDay; i++) {
-        var thatTime = (10 + i);
+        var thatTime = (6 + i);
         formattedTime.push((moment().startOf('day').add(thatTime, 'hours').format("HH:mm A")));
     }
 
